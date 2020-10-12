@@ -1,0 +1,61 @@
+<div class="card text-center py-3 my-3 textoPag">
+    <div class="card-header titulos">
+        <h3>
+            Gracias
+        </h3>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Espero que el recorrido te haya gustado.</h5>
+        <p class="card-text">Si deseas dejar un mensaje, 
+          no olvides agregar un número de teléfono o correo electrónico y me pondré en contacto contigo.
+        </p> 
+    </div>
+    <form (ngSubmit)="agregar()" class="form-group card-footer text-muted was-validated">
+        <label for="exampleFormControlTextarea1">Escribe tu mensaje.</label>
+        <textarea 
+            name="mensaje" 
+            class="form-control" 
+            id="exampleFormControlTextarea1" 
+            rows="6"
+            [(ngModel)] = "item.mensaje" 
+            required
+        ></textarea>
+        <div class="valid-feedback">¡Genial! Continúa, por favor.</div>
+        <button type="submit" class="btn my-3" data-toggle="modal" data-target="#staticBackdrop">Enviar</button>
+        <!--INICIO DE MODAL-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Enviado</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    Tu mensaje se ha enviado, gracias.
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--FIN DE MODAL-->
+    </form>
+</div>
+
+<div class="py-2 my-2 textoPag">
+    <ul class="list-group list-group-horizontal justify-content-center">
+        <a href="https://www.linkedin.com/in/mgutierrezh/" class="btn btn-primary justify-content-center my-1 py-1">LinkedIn <br /><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MadriD2ev" class="btn btn-primary justify-content-center my-1 py-1">GitHub <br /><i class="fab fa-github"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=522281571941&text=Recuerda poner tu nombre y de dónde me contactas. Gracias" class="btn btn-primary justify-content-center my-1 py-1">WhatsApp<br /><i class="fab fa-whatsapp"></i></a> 
+    </ul>
+</div>
+
+
+
+
+

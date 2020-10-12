@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "portafolioWebMgH",
+      "public": "dist/portafolioWebMgH",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

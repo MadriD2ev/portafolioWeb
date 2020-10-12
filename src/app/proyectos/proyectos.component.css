@@ -1,0 +1,16 @@
+.textoPag{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #003e60;
+}
+
+.titulos{
+  font-size: 18pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #003e60;
+}
+
+.btn{
+  background-color: #f1e2d2;
+  color: #003e60;
+  border-color: transparent !important;
+}
