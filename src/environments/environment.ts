@@ -1,12 +1,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCD4T7H2QTtEmXyu6XZAkVcMba2DrM1rTY",
-    authDomain: "portafoliowebmadrid.firebaseapp.com",
-    databaseURL: "https://portafoliowebmadrid.firebaseio.com",
-    projectId: "portafoliowebmadrid",
-    storageBucket: "portafoliowebmadrid.appspot.com",
-    messagingSenderId: "232602549003",
-    appId: "1:232602549003:web:2c5e3e3bfed87a224cc00e"
+    apiKey: "AIzaSyAREGSfQ2mfzbOGwCdFTohsxbO4ZzgjxH0",
+    authDomain: "portafoliowebmadrid-9492a.firebaseapp.com",
+    databaseURL: "https://portafoliowebmadrid-9492a.firebaseio.com",
+    projectId: "portafoliowebmadrid-9492a",
+    storageBucket: "portafoliowebmadrid-9492a.appspot.com",
+    messagingSenderId: "376134646688",
+    appId: "1:376134646688:web:ac8fc4990c2829f71402c5"
   }
 };

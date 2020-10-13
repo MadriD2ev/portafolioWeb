@@ -1,14 +1,5 @@
 {
-  "targets": {
-    "portafoliowebmadrid": {
-      "hosting": {
-        "portafolioWebMgH": [
-          "portafoliowebmadrid"
-        ]
-      }
-    }
-  },
   "projects": {
-    "default": "portafoliowebmadrid"
+    "default": "portafoliowebmadrid-9492a"
   }
 }
