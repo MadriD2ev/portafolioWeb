@@ -1,12 +1,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyAREGSfQ2mfzbOGwCdFTohsxbO4ZzgjxH0",
-    authDomain: "portafoliowebmadrid-9492a.firebaseapp.com",
-    databaseURL: "https://portafoliowebmadrid-9492a.firebaseio.com",
-    projectId: "portafoliowebmadrid-9492a",
-    storageBucket: "portafoliowebmadrid-9492a.appspot.com",
-    messagingSenderId: "376134646688",
-    appId: "1:376134646688:web:ac8fc4990c2829f71402c5"
+    apiKey: "AIzaSyAitFruomPBm82iQCPLGQwM1-G1bji3YbI",
+    authDomain: "ing-madrid.firebaseapp.com",
+    databaseURL: "https://ing-madrid.firebaseio.com",
+    projectId: "ing-madrid",
+    storageBucket: "ing-madrid.appspot.com",
+    messagingSenderId: "232774099585",
+    appId: "1:232774099585:web:40830ebbdb823542076380"
   }
 };
